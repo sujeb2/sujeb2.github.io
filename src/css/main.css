@@ -24,6 +24,7 @@ body {
 #mainTitle {
     color:rgb(170, 200, 167);
     font-size: 130px;
+    left: auto;
 }
 
 #extTitle {
@@ -32,6 +33,12 @@ body {
     position: absolute;
     left:auto;
     top:240px;
+}
+
+#subsubTitle {
+    color:rgb(170, 200, 167);
+    font-size: 45px;
+    left:auto;
 }
 
 #helloEmj {
