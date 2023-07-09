@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:  border-box;
+    box-sizing: border-box;
+    font-family: 'Pretendard Variable';
+}
+
+body {
+    background-color:rgb(246, 255, 222);
+}
+
+/*
+ - 여기서부터 DIV
+*/
+#frontText {
+    position: absolute;
+    left:270;
+    top:180;
+}
+
+/* 이건 텍스트 */
+#mainTitle {
+    color:rgb(170, 200, 167);
+    font-size: 130px;
+}
+
+#extTitle {
+    color:rgb(170, 200, 167);
+    font-size: 50px;
+    position: absolute;
+    left:auto;
+    top:240px;
+}
+
+#helloEmj {
+    font-size: 200px;
+    animation: handShake 0.9s infinite;
+    position: absolute;
+    left:500;
+    top:85;
+}
+
+#btnDef {
+    font-size: 60px;
+    color: rgb(227, 242, 193);
+}
